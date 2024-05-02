@@ -9,7 +9,7 @@ import { IoIosSettings } from "react-icons/io";
 
 const NavBar = () => {
   return (
-    <div className="fixed md:static flex items-center justify-between w-full h-16 md:h-20 px-4 bg-white">
+    <div className="md-p-fixed md-z-10 md-r-l-t-0 flex items-center justify-between w-full md-h-4 h-20 px-4 bg-white md-border-b ">
       <div className="flex items-center">
         <div className="w-11 lg:w-fit">
           <Image
