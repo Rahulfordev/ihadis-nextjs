@@ -101,6 +101,26 @@
   }
 }
 
+input {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 5px;
+  width: 100%;
+  background: #eee;
+  border-radius: 5px;
+  background-image: linear-gradient(#2b9e76, #2b9e76);
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .md-col-span-3 {
     grid-column: span 3 / span 3;

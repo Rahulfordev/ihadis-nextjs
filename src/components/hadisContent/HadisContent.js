@@ -749,9 +749,6 @@ const HadisContent = () => {
             </div>
           </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
     </div>
   );
